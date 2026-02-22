@@ -3,7 +3,7 @@
 > Orchestrate multiple Claude Code agents working in parallel to improve your codebase through automated bug fixing or systematic best practices implementation
 
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT%2BOpenAI%2FAnthropic%20Rider-blue.svg)](./LICENSE)
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 
 ## 🎯 What is this?
@@ -1108,7 +1108,7 @@ Created by Jeffrey Emanuel (jeffrey.emanuel@gmail.com)
 
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) file
+MIT License (with OpenAI/Anthropic Rider) — see [LICENSE](LICENSE) file
 
 ## ⚠️ Important Notes
 
