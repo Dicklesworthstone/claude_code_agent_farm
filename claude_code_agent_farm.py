@@ -319,6 +319,7 @@ class AgentMonitor:
             ("cwd:" in content and "Welcome to Claude" in content),  # Working directory shown
             ("Bypassing Permissions" in content and "│ >" in content),  # May appear with prompt
             ("│ >" in content and "─╯" in content),  # Prompt box bottom border
+            ("❯ Try " in content),  # Alternative prompt suggestion indicator
         ]
         return any(ready_indicators)
 
