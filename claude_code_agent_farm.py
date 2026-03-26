@@ -313,6 +313,7 @@ class AgentMonitor:
         ready_indicators = [
             "Welcome to Claude Code!" in content,  # Welcome message
             ("│ > Try" in content),  # The prompt box with suggestion
+            ("❯ Try " in content),  # The prompt box with suggestion
             ("? for shortcuts" in content),  # Shortcuts hint at bottom
             ("╰─" in content and "│ >" in content),  # Box structure with prompt
             ("/help for help" in content),  # Help text in welcome message
